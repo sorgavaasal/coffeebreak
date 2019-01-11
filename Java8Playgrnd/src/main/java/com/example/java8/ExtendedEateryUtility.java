@@ -18,5 +18,8 @@ public class ExtendedEateryUtility {
 				.collect(reducing((d1, d2) -> d1.getCalories() > d2.getCalories() ? d1 : d2));
 		System.out.println(mostCalories.map(Dish::getCalories));
 		System.out.println(mostCalories.map(Dish::getName));
+		
+		int totalCalories = menu.stream().collect(reducing(0, Dish::getCalories, (i, j) -> i+j ));
+		System.out.println("total calories of all the dishes " +totalCalories);
 	}
 }
