@@ -53,6 +53,12 @@ public class EateryDishUtility {
 		System.out.println("nonMeatTypeDishes===>");
 		nonMeatTypeDishes.forEach(System.out::println);
 		
+		Predicate<Dish> fishTypeDish = (Dish d) -> d.getType() == Dish.Type.FISH;
+		
+		nonMeatTypeDishes = dishList.stream().filter(othrTypeDish.or(fishTypeDish)).map(Dish::getName)
+				.collect(toList());
+		nonMeatTypeDishes.forEach(System.out::println);
+				
 		System.out.println(" Meat type of food===>");
 		List<String> meatTypeDishes = dishList.stream()
 				.filter((Dish d) -> d.getType() == Dish.Type.MEAT).map(Dish::getName)

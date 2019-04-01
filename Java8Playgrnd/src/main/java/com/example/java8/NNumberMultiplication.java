@@ -10,10 +10,9 @@ import java.util.stream.IntStream;
  */
 public class NNumberMultiplication {
 	
-	private void calculateNNumberFact(Integer num) {
+	private Integer calculateNNumberFact(Integer num) {
 		
 		IntSupplier fact = new IntSupplier() {
-			
 			Integer nextNum = 1; Integer numFactorial = 1;			
 			@Override
 			public int getAsInt() {
@@ -24,11 +23,15 @@ public class NNumberMultiplication {
 			}
 		};
  		
-		System.out.println(IntStream.generate(fact).limit(num).max().getAsInt());
+		return IntStream.generate(fact).limit(num).max().getAsInt();
 	}
-	
+
+	/**
+	 * main method to test the above function 
+	 * @param args
+	 */
 	public static void main(String[] args) {
-		new NNumberMultiplication().calculateNNumberFact(6);
+		System.out.println("factorial of the number supplied " + new NNumberMultiplication().calculateNNumberFact(6));
 	}
 
 }
