@@ -1,6 +1,5 @@
 package prv.nosql.nonpersist.testclass.mainmethod;
 
-import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -14,8 +13,11 @@ import java.util.List;
 
 public class GenerateAppointmentSqls {
 	
-	private static final List<String> mrnList = Arrays.asList("5000305067", "5000311180", "5000311179", "5000601978",
-			"5000602242", "5000602044", "5000313429", "5000603838");
+	//private static final List<String> mrnList = Arrays.asList("5000305067", "5000311180", "5000311179", "5000601978",
+	//		"5000602242", "5000602044", "5000313429", "5000603838");
+	private static final List<String> mrnList = Arrays.asList("5000552632", "5000552634", "5000552635", "5000552639",
+			"5000552643", "5000552641", "5000552636", "5000552637");
+
 	private static final String[] sqlContent = {"insert into appointments(mrn,appt_datetime,appt_status,created_date, created_by) values (", 
 			",'NEW',to_date(to_char(sysdate,'dd/mon/yyyy hh24:mi:ss'), 'dd/mm/yyyy hh24:mi:ss'),'CCDA-INITIATING GTWAY');"
 	};
@@ -39,7 +41,7 @@ public class GenerateAppointmentSqls {
 				outputLines.add(sb.toString());
 			}		
 		}
-		Files.write(Paths.get("/Users/sridharramanadmin/Downloads/trialAndErrorSpace/HeyITriedMongo/src/test/resources/sampleAppointmentsOutputFile"), (Iterable<String>)outputLines);
+		Files.write(Paths.get("/Users/sridharramanadmin/Downloads/trialAndErrorSpace/coffeebreak/HeyITriedMongo/src/test/resources/sampleAppointmentsOutputFile"), (Iterable<String>)outputLines);
 	}
 
 }
