@@ -1,0 +1,963 @@
+<?xml version='1.0'  encoding='UTF8' ?>
+<RESULTS>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[500]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Failed to parse response from server when performing POST to URL https://fhir-ns-qa.fmcna.com/STU3/fhirapi/ - java.net.SocketTimeoutException: Read timed out]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[08-NOV-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[{"resourceType":"Bundle","id":"bundle-ccdaprocrequest","type":"batch","entry":[{"request":{"method":"GET","url":"ProcedureRequest?subject=P5000603785&occurrence=ge2019-11-08T00:00:00-04:00&occurrence=lt2019-11-09T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10"}},{"request":{"method":"GET","url":"ProcedureRequest?subject=P5000313444&occurrence=ge2019-11-08T00:00:00-04:00&occurrence=lt2019-11-09T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10"}},{"request":{"method":"GET","url":"ProcedureRequest?subject=P5000603838&occurrence=ge2019-11-08T00:00:00-04:00&occurrence=lt2019-11-09T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10"}},{"request":{"method":"GET","url":"ProcedureRequest?subject=P5000603946&occurrence=ge2019-11-08T00:00:00-04:00&occurrence=lt2019-11-09T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10"}}]}]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[21]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[500]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Failed to parse response from server when performing POST to URL https://fhir-ns-qa.fmcna.com/STU3/fhirapi/ - java.net.SocketTimeoutException: Read timed out]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[08-NOV-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[{"resourceType":"Bundle","id":"bundle-ccdaprocrequest","type":"batch","entry":[{"request":{"method":"GET","url":"ProcedureRequest?subject=P5000603785&occurrence=ge2019-11-08T00:00:00-04:00&occurrence=lt2019-11-09T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10"}},{"request":{"method":"GET","url":"ProcedureRequest?subject=P5000313444&occurrence=ge2019-11-08T00:00:00-04:00&occurrence=lt2019-11-09T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10"}},{"request":{"method":"GET","url":"ProcedureRequest?subject=P5000603838&occurrence=ge2019-11-08T00:00:00-04:00&occurrence=lt2019-11-09T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10"}},{"request":{"method":"GET","url":"ProcedureRequest?subject=P5000603946&occurrence=ge2019-11-08T00:00:00-04:00&occurrence=lt2019-11-09T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10"}}]}]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[22]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[404 Not Found]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Unknown resource type]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[08-NOV-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[{"resourceType":"Bundle","id":"bundle-ccdaprocrequest","type":"batch","entry":[{"request":{"method":"GET","url":"ProcedureRequest?subject=P5000603785&occurrence=ge2019-11-08T00:00:00-04:00&occurrence=lt2019-11-09T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10"}},{"request":{"method":"GET","url":"ProcedureRequest?subject=P5000313444&occurrence=ge2019-11-08T00:00:00-04:00&occurrence=lt2019-11-09T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10"}},{"request":{"method":"GET","url":"ProcedureRequest?subject=P5000603838&occurrence=ge2019-11-08T00:00:00-04:00&occurrence=lt2019-11-09T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10"}},{"request":{"method":"GET","url":"ProcedureRequest?subject=P5000603946&occurrence=ge2019-11-08T00:00:00-04:00&occurrence=lt2019-11-09T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10"}}]}]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[23]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[404 Not Found]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Unknown resource type]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[08-NOV-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[{"resourceType":"Bundle","id":"bundle-ccdaprocrequest","type":"batch","entry":[{"request":{"method":"GET","url":"ProcedureRequest?subject=P5000603785&occurrence=ge2019-11-08T00:00:00-04:00&occurrence=lt2019-11-09T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10"}},{"request":{"method":"GET","url":"ProcedureRequest?subject=P5000313444&occurrence=ge2019-11-08T00:00:00-04:00&occurrence=lt2019-11-09T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10"}},{"request":{"method":"GET","url":"ProcedureRequest?subject=P5000603838&occurrence=ge2019-11-08T00:00:00-04:00&occurrence=lt2019-11-09T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10"}},{"request":{"method":"GET","url":"ProcedureRequest?subject=P5000603946&occurrence=ge2019-11-08T00:00:00-04:00&occurrence=lt2019-11-09T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10"}}]}]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[24]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "897aa7b6-ebc1-4a1d-b8ae-fcb8014f577b" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552643&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34497]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "804579b2-3a5d-4e9a-8d03-5ff966cef970" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P350434&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34127]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "efab8eb9-c7ac-4e78-9307-9b7be4769381" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552636&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34211]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "b6cd5399-4b0a-4792-9e07-c16adb414977" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552636&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34307]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "4e27fb91-ad51-4081-8b96-65af3ca8dc24" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P350434&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34315]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "acece55f-307f-482b-bf06-26fd58742427" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552644&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34345]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "e4c6e5cc-e6e0-41a8-831b-6b73cd7f8ebf" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552639&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34181]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "0e76f345-2563-434e-a1d6-3d2ea61bb4a9" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P1000152355&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34187]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "eef82e0e-4a05-4378-b37c-551884c637de" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552632&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34263]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "cc2290f9-77b9-489c-9626-353707649332" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552643&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34306]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "950e16dd-3e86-45bb-9072-2fc73f5ec672" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552636&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34499]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "520f43aa-1d9a-449c-9230-9ff191cccdae" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[20-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552641&occurrence=ge2019-12-20T00:00:00-04:00&occurrence=lt2019-12-21T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34620]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "00e77200-23b8-461b-9ed8-8ef7d826ef64" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552640&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34401]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "1b80042a-c2f8-42f0-8111-ef32f7c063f2" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552641&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34487]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "f96e4f19-81c5-4ddf-bac0-666dc3bf0f58" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552637&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34490]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[500]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Failed to parse response from server when performing POST to URL https://fhir-ns-ps.fmcna.com/STU3/fhirapi/ - java.net.SocketTimeoutException: Read timed out]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[17-JAN-20]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[{"resourceType":"Bundle","id":"bundle-ccdaprocrequest","type":"batch","entry":[{"request":{"method":"GET","url":"ProcedureRequest?subject=P1000051149&occurrence=ge2020-01-17T00:00:00-04:00&occurrence=lt2020-01-18T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10"}},{"request":{"method":"GET","url":"ProcedureRequest?subject=P1000152355&occurrence=ge2020-01-17T00:00:00-04:00&occurrence=lt2020-01-18T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10"}},{"request":{"method":"GET","url":"ProcedureRequest?subject=P5000552638&occurrence=ge2020-01-17T00:00:00-04:00&occurrence=lt2020-01-18T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10"}}]}]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[READ]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34645]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "382263ba-de83-41f5-997c-37568cd5eda9" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552639&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34388]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "c21ceb09-d054-4ee5-9631-9849f371288d" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552637&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34305]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "1eb0beb9-c024-4f96-8cde-9209ac687b9a" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000028031&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34308]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "06e0441a-acfb-4305-9a5b-a13d604abcd0" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P1000152355&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34309]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "50a0f8a7-6c08-44c3-8868-69a204e6840e" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552635&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34318]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "d379cc30-e61b-4983-9ad0-dbfdfb620d6a" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552642&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34346]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "54e43240-2883-4227-9a13-da990a72aea9" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552642&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34493]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "183e92c5-cad4-466f-83a7-8c557d9aa7fa" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552641&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34494]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "5a37297b-6ca4-4ce9-9f0f-e1de163f26f4" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[20-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P1000152355&occurrence=ge2019-12-20T00:00:00-04:00&occurrence=lt2019-12-21T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34624]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "a4ab8f97-ff2a-4aef-8b77-45bcd45340fe" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552642&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[READ]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34523]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "df85c506-82f7-4bc3-a58f-e9ab17fef6ed" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552641&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[READ]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34524]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "761126ea-64d4-418f-b97b-a0f1800ff95d" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[20-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552640&occurrence=ge2019-12-20T00:00:00-04:00&occurrence=lt2019-12-21T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34618]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "fa52343c-d5ad-4105-a8f8-1e20a64c5c8c" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[20-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P1000051149&occurrence=ge2019-12-20T00:00:00-04:00&occurrence=lt2019-12-21T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34622]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "4d6f4c21-b70b-4c8c-b6f3-fd121102a8b5" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000006962&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34262]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "4df8a55d-15da-4fc5-9ea6-6378110e9c86" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552644&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34182]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "dd5a7185-40ea-4ef9-ba5d-4d4b5b6573a1" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000028031&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34185]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "5cc2ba50-cac3-477b-9a50-78511fca527f" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552638&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34189]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "a73c966c-5f6e-42f9-955e-ceaac9cb84d4" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P1000051149&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34310]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "d07c9529-7228-4608-b05a-af19d0e2631b" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P3000155598&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34314]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "dfd065a9-4d37-464a-a8b2-6fa07dcbf71c" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552634&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34317]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "14e22e4b-be74-47c3-88c9-e86bed34d69b" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552643&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34331]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "521c9046-d445-494e-a8d0-e2f986c99cd2" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552644&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34119]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "1d57471f-8f34-40cb-8483-e9e461bcc50b" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552632&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34355]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "73ed8fe0-7c18-45b1-ba1d-ddf95af2c451" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552634&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34357]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "b6d4c138-e61e-4387-9129-e52b024d209e" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552640&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[READ]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34488]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "2aad334c-1fc1-4943-ac1c-abd34ff800ab" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000028031&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[READ]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34491]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "dfedf848-d179-47c7-975c-47b513717230" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552640&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[READ]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34495]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "08bf841b-91f1-4541-a1bc-4b0cee8c0055" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552644&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[READ]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34496]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "7e99b415-d560-43bb-842e-88a12dc0840d" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000028031&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[READ]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34498]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "3ed91f2d-79e8-4a68-a482-d9c290d0c5d6" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P350434&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34354]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "b70bc605-0484-4b3a-9c71-a3c7548b094a" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000028031&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34120]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "de6f1706-e3be-4303-aa47-2426a19e34d2" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552634&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34124]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "264b8063-e443-490a-b8bc-8877c759dfe6" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000021683&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34128]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "58fca953-a6c8-46c4-9fd5-84e203044b8b" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552636&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34121]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "b83ce516-9ed8-4663-82cb-06e72706cfa5" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552636&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34122]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "242bfbd8-f852-4765-83b1-0b13114c2c28" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000006962&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34125]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "e1768dd4-8b9b-441a-8708-d881c430a7fb" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552634&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[READ]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34264]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "295d9634-820e-402f-ab82-b24b9e93ebf3" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552635&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[READ]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34265]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "52623037-8dd1-4aac-a1ec-d9a6883a6070" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552638&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34311]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "e96f299c-f0bd-4ed1-9d69-d6adde608d11" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000006962&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34312]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "3cf089ee-d7ca-457d-a5c0-749ceb61ce34" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552632&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34129]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "0dafaf7c-da1d-4e02-90b1-5b3fe8cdf713" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552643&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34482]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "dc581798-a765-4445-9d91-068e3ed5b5a6" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552639&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[READ]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34483]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "13917dde-d2d2-4a66-84b8-8b759b792477" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552642&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[READ]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34484]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "b82524d7-3486-4953-9c23-9b7663b0b4b2" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000028031&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[READ]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34485]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "df319f8d-907a-4f6f-b482-19ca56d59af1" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552636&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[READ]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34486]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "14008bda-ff6d-414f-9ab2-ba4eed7ec9f7" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552639&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[READ]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34489]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "b71934fb-88e7-472f-9db3-20881f5c3689" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P1000051149&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34188]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "49620d9c-6310-451e-93be-b963ae289d1f" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P350434&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[READ]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34261]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "94bf1318-ff9a-4aa2-b207-1ae00872d292" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552632&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34316]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "bfadc10b-94aa-41ce-aed5-bea6828de5b1" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552644&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34343]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "12419e78-3f90-4a8f-b2ba-05bfdc67eaad" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552642&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34348]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "e7e1217f-7082-4f12-b7e2-2492859ee5bb" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552642&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34142]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "aac48913-f891-480d-bf85-90e068f23640" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552642&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34183]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "af3cf73b-2c36-4009-950d-c875de4a0a21" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552640&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34184]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "f486d694-eb21-496d-94a4-112d815133ce" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552636&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34186]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "ef95dbff-e84d-44eb-8bf9-7b4b98527d8d" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552636&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[READ]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34492]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "10041490-3607-4a53-9a35-289867894f30" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[20-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552639&occurrence=ge2019-12-20T00:00:00-04:00&occurrence=lt2019-12-21T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34621]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "860ac2f0-e8d8-46a7-b235-5b69b5d9d5b1" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552642&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34210]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[500]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Failed to parse response from server when performing POST to URL https://fhir-ns-ps.fmcna.com/STU3/fhirapi/ - java.net.SocketTimeoutException: Read timed out]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[17-JAN-20]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[{"resourceType":"Bundle","id":"bundle-ccdaprocrequest","type":"batch","entry":[{"request":{"method":"GET","url":"ProcedureRequest?subject=P5000552642&occurrence=ge2020-01-17T00:00:00-04:00&occurrence=lt2020-01-18T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10"}}]}]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[READ]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34641]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[500]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Failed to parse response from server when performing POST to URL https://fhir-ns-ps.fmcna.com/STU3/fhirapi/ - java.net.SocketTimeoutException: Read timed out]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[17-JAN-20]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[{"resourceType":"Bundle","id":"bundle-ccdaprocrequest","type":"batch","entry":[{"request":{"method":"GET","url":"ProcedureRequest?subject=P5000552641&occurrence=ge2020-01-17T00:00:00-04:00&occurrence=lt2020-01-18T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10"}}]}]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[READ]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34643]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "77664958-187d-4048-b426-cfbe9e0779d0" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552632&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[READ]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34267]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "dd02a4df-4661-43f8-b349-c4555e8cd1de" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552635&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34356]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "71c9addc-1e0f-46c5-98c1-ee00a62e186c" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[20-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552643&occurrence=ge2019-12-20T00:00:00-04:00&occurrence=lt2019-12-21T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34619]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "4bd93261-b538-4f0b-88b0-f966f2595469" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[20-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552638&occurrence=ge2019-12-20T00:00:00-04:00&occurrence=lt2019-12-21T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34623]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "a1055f03-3a44-450a-ad1b-861ded629a3b" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000006962&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34353]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "e78fff76-6d78-4d21-80ec-507124fde7f0" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552644&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34241]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "f2eefb03-9c42-4d35-9950-6287569ed953" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552640&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34123]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "54b00baa-a79c-4c88-8ba6-5f07042b3bb5" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552635&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34126]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "deae93eb-63d2-415b-b1c0-d44a244ffa6a" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[18-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P3000155598&occurrence=ge2019-12-18T00:00:00-04:00&occurrence=lt2019-12-19T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34130]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[500]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Failed to parse response from server when performing POST to URL https://fhir-ns-ps.fmcna.com/STU3/fhirapi/ - java.net.SocketTimeoutException: Read timed out]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[17-JAN-20]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[{"resourceType":"Bundle","id":"bundle-ccdaprocrequest","type":"batch","entry":[{"request":{"method":"GET","url":"ProcedureRequest?subject=P1000051149&occurrence=ge2020-01-17T00:00:00-04:00&occurrence=lt2020-01-18T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10"}},{"request":{"method":"GET","url":"ProcedureRequest?subject=P1000152355&occurrence=ge2020-01-17T00:00:00-04:00&occurrence=lt2020-01-18T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10"}},{"request":{"method":"GET","url":"ProcedureRequest?subject=P5000552638&occurrence=ge2020-01-17T00:00:00-04:00&occurrence=lt2020-01-18T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10"}}]}]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[READ]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34642]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "c38795ff-887b-43f1-9a94-de97d73de28a" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552637&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34329]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "2bbae86e-ee7f-4ac9-811b-e33111315192" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552642&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34330]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "3a48a48f-ebfd-4a7d-b4c6-20a453974169" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[20-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552639&occurrence=ge2019-12-20T00:00:00-04:00&occurrence=lt2019-12-21T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34634]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "72535ffe-83a4-494a-a83e-a7efb6c4b8e2" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000021683&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[RETRIED]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34313]]></COLUMN>
+	</ROW>
+	<ROW>
+		<COLUMN NAME="ERR_CODE"><![CDATA[410 Gone]]></COLUMN>
+		<COLUMN NAME="ERR_MSG"><![CDATA[Search ID "d9c09800-2571-4bf7-87d0-b12a570724cd" does not exist and may have expired]]></COLUMN>
+		<COLUMN NAME="ERR_SEVERITY"><![CDATA[error]]></COLUMN>
+		<COLUMN NAME="ERR_ORIGIN"><![CDATA[PROC-REQ]]></COLUMN>
+		<COLUMN NAME="CREATED_DATETIME"><![CDATA[19-DEC-19]]></COLUMN>
+		<COLUMN NAME="ERR_REQUEST"><![CDATA[ProcedureRequest?subject=P5000552637&occurrence=ge2019-12-19T00:00:00-04:00&occurrence=lt2019-12-20T00:00:00-04:00&intent=instance-order&category=Peritoneal%20Dialysis,Hemodialysis,Transitional%20Care%20Dialysis&status=active&_include=ProcedureRequest.Patient&_elements=ProcedureRequest.subject,Patient.identifier,Patient.birthDate,Patient.name,Patient.telecom,Patient.gender,Patient.address&_elements:exclude=ProcedureRequest.meta,Patient.meta&_include=ProcedureRequest:subject&_count=10]]></COLUMN>
+		<COLUMN NAME="ERR_STAT"><![CDATA[READ]]></COLUMN>
+		<COLUMN NAME="ERR_ID"><![CDATA[34481]]></COLUMN>
+	</ROW>
+</RESULTS>
