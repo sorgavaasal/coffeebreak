@@ -70,5 +70,9 @@ public class BracesCheck {
 		} else {
 			System.out.println("its having an invalid syntax");
 		}
+		
+		int i = 1;
+		int j = 8;
+		System.out.println(i%j);
 	}
 }
