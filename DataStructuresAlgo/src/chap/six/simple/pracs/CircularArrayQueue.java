@@ -36,10 +36,9 @@ public class CircularArrayQueue<T> implements Queue<T> {
 
 	@Override
 	public T dequeue() {
+		//cicularArray has become empty again 
 		if (isEmpty())
 			throw new RuntimeException("Queue is empty, enqueue is not performed yet");
-		// TODO code to throw an exception when the 
-		//cicularArray has become empty again 
 		headIndex = (headIndex + 1) % circularArray.length;
 		return circularArray[headIndex];
 	}
