@@ -37,6 +37,18 @@ public class BInaryIntegerTreeRunner {
 		
 		System.out.println("size of the binary tree " +binTree.getSize());
 
+		System.out.println("pre-order-iteration");
+		
+		BinaryIntegerTree.iterateTreePreOrder(binTree.getRoot());
+		
+		System.out.println();
+		System.out.println("In-order iteration");
+		BinaryIntegerTree.iterateTreeInOrder(binTree.getRoot());
+		
+		System.out.println();
+		System.out.println("Post-order iteration");
+		BinaryIntegerTree.iterateTreePostOrder(binTree.getRoot());
+		
 	}
 
 }
