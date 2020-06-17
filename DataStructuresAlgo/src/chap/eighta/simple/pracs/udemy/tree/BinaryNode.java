@@ -6,6 +6,9 @@ public class BinaryNode<E> {
 	private BinaryNode<E> leftNode;
 	private BinaryNode<E> rightNode;
 	
+	public BinaryNode() {
+	}
+	
 	public BinaryNode(E element) {
 		this.element = element;
 	}

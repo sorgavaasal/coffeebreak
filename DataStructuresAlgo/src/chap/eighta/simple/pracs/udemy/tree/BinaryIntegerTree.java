@@ -11,22 +11,6 @@ public class BinaryIntegerTree {
 		return this.root;
 	}
 
-	/**
-	 * insert elements to the node
-	 * @param node
-	 * @return
-	 */
-	public BinaryNode<Integer> insertNode(BinaryNode<Integer> node) {
-		if (root == null) {
-			this.root = node;
-			++size;
-			return node;
-		}
-		
-	 	return addNode(node, root);
-		
-	}
-	
 	public Integer getSize() {
 		return this.size;
 	}
@@ -61,28 +45,44 @@ public class BinaryIntegerTree {
 	}
 	
 	/**
+	 * insert elements to the node
+	 * @param node
+	 * @return
+	 */
+	public BinaryNode<Integer> insertNode(BinaryNode<Integer> node) {
+		if (root == null) {
+			this.root = node;
+			++size;
+			return node;
+		}
+		
+	 	return addNode(node, root);
+		
+	}
+	
+	/**
 	 * recursive call for adding elements to the Binarytree 
 	 * @param node
 	 * @return
 	 */
 	private BinaryNode<Integer> addNode(BinaryNode<Integer> node, BinaryNode<Integer> binRoot) {
 		
-		if (binRoot.getLeftNode() == null && binRoot.getRightNode() == null) {
-			if (binRoot.getElement() <= node.getElement()) {
+		if (binRoot.getElement() <= node.getElement()) {
+			if (binRoot.getRightNode() == null) {
+				++size;
 				binRoot.setRightNode(node);
 			} else {
-				binRoot.setLeftNode(node);
+				addNode(node, binRoot.getRightNode());
 			}
-			
-			++size;
-			return node;
-		}
-
-		if (binRoot.getElement() <= node.getElement()) {
-			addNode(node, binRoot.getRightNode());
 		} else {
-			addNode(node, binRoot.getLeftNode());
+			if (binRoot.getLeftNode() == null) {
+				++size;
+				binRoot.setLeftNode(node);	
+			} else {
+				addNode(node, binRoot.getLeftNode());
+			}
 		}
+		
 		return node;
 	}
 	
@@ -91,16 +91,39 @@ public class BinaryIntegerTree {
 	 * 
 	 * @param min
 	 */
-	// TODO to be revisited later point of time 
-	// after finishing regular iteration logic are complete 
-	public void getMinimumNode(BinaryNode<Integer> min, BinaryNode<Integer> root) {
-		if (min == null) {
-			min = root;
-			if (root.getLeftNode() == null && root.getRightNode() == null) {
-				return;
-			}
-			getMinimumNode(min, root);
+	// TODO to be revisited later point of time
+	// after finishing regular iteration logic are complete
+	public static BinaryNode<Integer> getMinimumNode(BinaryNode<Integer> root) {
+		
+		if (root == null) {
+			return root;
 		}
+		
+		if (root.getLeftNode() == null) {
+			return root;
+		}
+		
+		return getMinimumNode(root.getLeftNode());
+	}
+	
+	/**
+	 * Find maximum value of the tree in a recurssive fashion
+	 * @param root
+	 * @return
+	 */
+	public static int getMaximumDepthOfTree(BinaryNode<Integer> root) {
+		if (root == null) {
+			return 0;
+		}
+		
+		if (root.getLeftNode() == null && root.getRightNode() == null) {
+			return 0;
+		}
+		
+		int leftMaxNode = 1 + getMaximumDepthOfTree(root.getLeftNode());
+		int rightMaxNode = 1 + getMaximumDepthOfTree(root.getRightNode());
+		
+		return Math.max(leftMaxNode, rightMaxNode);
 	}
 	
 	/**
@@ -157,33 +180,52 @@ public class BinaryIntegerTree {
 	 * @param numList
 	 * @return
 	 */
-	//* TODO load the tree with one time value from 
 	public boolean loadListToTree(List<Integer> numList) {
 		if (this.root != null) {
 			return false;
 		}
 		
-		this.root = setElementToNode(numList.get(0));
-		Integer prev = numList.get(0);
-		Integer curr = 0;
-		BinaryNode<Integer> lastNode = this.root;
-
-		for (int i = 1; i < numList.size() - 1; ++i) {
-			curr = numList.get(i);
-			if (prev <= curr) {				
-				lastNode.setLeftNode(setElementToNode(curr));
-			} else {
-				lastNode.setRightNode(setElementToNode(curr));
-			}
+		for (Integer number : numList) {
+			this.insertNode(setElementToNode(number));
 		}
 		
 		return true;
+	}
+	
+	/**
+	 * prints the nodes which are with in the range of low and high value
+	 * 
+	 * @param lowValue
+	 * @param highValue
+	 */
+	public static void printNodesInRange(BinaryNode<Integer> root, int lowValue, int highValue) {
+		if (root == null) {
+			return;
+		}
+		
+		if (root.getElement() >= lowValue && root.getElement() <= highValue) 
+			printNodeContent(root);
+		
+		printNodesInRange(root.getLeftNode(), lowValue, highValue);
+		printNodesInRange(root.getRightNode(), lowValue, highValue);
+	}
+	
+	/**
+	 * checks if the given tree is a Binary search tree or not 
+	 * @param root
+	 */
+	public static boolean isGivenTreeBinary(BinaryNode<Integer> root) {
+		
+		if (root != null && (root.getLeftNode().getElement() > root.getElement() || 
+				root.getRightNode().getElement() < root.getElement())) {
+			return false;
+		} 
+		
+		return isGivenTreeBinary(root.getLeftNode()) && isGivenTreeBinary(root.getRightNode());
 	}
 	
 	private BinaryNode<Integer> setElementToNode(Integer element) {
 		BinaryNode<Integer> node = new BinaryNode<>(element);
 		return node;
 	}
-	
-
 }

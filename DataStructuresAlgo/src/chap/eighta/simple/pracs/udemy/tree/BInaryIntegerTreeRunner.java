@@ -1,5 +1,8 @@
 package chap.eighta.simple.pracs.udemy.tree;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class BInaryIntegerTreeRunner {
 	
 	public static void main(String[] args) {
@@ -48,6 +51,33 @@ public class BInaryIntegerTreeRunner {
 		System.out.println();
 		System.out.println("Post-order iteration");
 		BinaryIntegerTree.iterateTreePostOrder(binTree.getRoot());
+		
+		BinaryIntegerTree newBinTree = new BinaryIntegerTree(); 
+		List<Integer> numLists = Arrays.asList(8, 7, 14, 4, 2, 5, 12, 16, 18, 13);
+		boolean result = newBinTree.loadListToTree(numLists);
+		
+		System.out.println("tree loaded from lists " +result);
+		
+		System.out.println("Inorder loading of the tree");
+		System.out.println("*****************************");
+		BinaryIntegerTree.iterateTreeInOrder(newBinTree.getRoot());
+		
+		System.out.println("PostOrder loading of the tree");
+		System.out.println("*****************************");
+		BinaryIntegerTree.iterateTreePostOrder(newBinTree.getRoot());
+
+		System.out.println("PreOrder loading of the tree");
+		System.out.println("*****************************");
+		BinaryIntegerTree.iterateTreePreOrder(newBinTree.getRoot());
+		
+		BinaryNode<Integer> minimum = BinaryIntegerTree.getMinimumNode(newBinTree.getRoot());
+		System.out.println("minimum value ===> " + minimum.getElement());
+		
+		System.out.println("Maximum depth of the binary tree ===>"
+				+ BinaryIntegerTree.getMaximumDepthOfTree(newBinTree.getRoot()));
+		
+		System.out.println("Print Values in Range "); 
+		BinaryIntegerTree.printNodesInRange(newBinTree.getRoot(), 2, 12);
 		
 	}
 
