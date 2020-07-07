@@ -7,7 +7,7 @@ import java.lang.reflect.Array;
  * minimum heap and maximum heap space classes 
  * @author srividhya
  */
-public abstract class HeapSpace<T extends Comparable<T>> {
+public abstract class HeapSpace<T extends Comparable> {
 	
 	private static Integer MAX_SIZE = 40;
 	protected T[] array;

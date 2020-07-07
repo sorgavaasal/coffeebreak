@@ -5,6 +5,10 @@ public class MinimumHeapSpace<T extends Comparable> extends HeapSpace {
 	public MinimumHeapSpace(Class type) {
 		super(type);
 	}
+	
+	public MinimumHeapSpace(Class type, int size) {
+		super(type, size);
+	}
 		
 	/**
 	 * moves down the value from the incorrect index location
